@@ -1,7 +1,7 @@
 # ZendeskCodingChallenge
 ## An Express Server (Backend) that uses the Zendesk API to GET paginated (25 tickets at a time) tickets and redirects them to the React frontend.
 
-<img src="detail-ticker.png" width="1000" height="600">
+<img src="ticket-viewer.png" width="1000" height="600">
 <img src="pagination.png" width="1000" height="600">
 <img src="detail-ticket.png" width="1000" height="600">
 
