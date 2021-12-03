@@ -1,0 +1,12 @@
+.header_component {
+  background-color: #03373d;
+  color: white;
+  padding: 2%;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.header_img {
+  width: 200px;
+  object-fit: contain;
+}

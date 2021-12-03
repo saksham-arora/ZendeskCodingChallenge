@@ -1,0 +1,15 @@
+.ticket_list_component {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  margin: 0% 20% 0%;
+ 
+}
+
+.ticket_list{
+  background-color: rgba(0, 0, 0, 0.2);
+}
