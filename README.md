@@ -13,7 +13,7 @@
 
 ## Step 2 : Running the Backend
 - Move your current directory to the backend directory.
-- Run the command  *nodemon server.js* to run the server. (The server runs on PORT 4000).
+- Run the command  *node server.js* to run the server. (The server runs on PORT 4000).
 
 ## Step 3 : Running the Frontend
 - Using another terminal, move yor current directory to frontend directory.
@@ -52,6 +52,14 @@ The dynamic nature of the coding challenge was one of the main reasons I chose *
 - As soon as the frontend gets the JSON data, it maps this data to the Detailed Ticket Component.
 
 # Design Decisions
+
+## Testing
+- Developed Unit Test cases to check the End to End implementation of the API requests. 
+- APIs were tested in the backend to check if the requested URL is broken or not.
+- This was done by checking if the GET request is giving HTTP Status 200(i.e Ok).
+- Please run *server.test.js* using node command to start the testing phase.
+
+
 ## For the Main Screen
 Just before the frontend is rendered when the user loads the `http://localhost:3000/`, the frontend makes a get request to the server at the '/' endpoint. This implementation was chosen because it prevents asyncronization between the backend and frontend components. As a result, the frontend components will only be loaded when data is accessible for the frontend.
 
